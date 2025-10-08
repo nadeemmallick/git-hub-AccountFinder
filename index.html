@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitHub Profiles</title>
+  </head>
+  <body>
+    <form class="user-form" id="form">
+      <label for="search" class="visually-hidden">Search GitHub user</label>
+      <div class="input-row">
+        <input type="text" id="search" placeholder="Search a GitHub user" autocomplete="off">
+        <button type="button" id="themeToggle" class="toggle-btn" aria-pressed="false" title="Toggle theme">🌙</button>
+      </div>
+    </form>
+
+    <main id="main" aria-live="polite"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
